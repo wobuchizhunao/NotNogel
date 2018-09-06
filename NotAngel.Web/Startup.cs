@@ -51,6 +51,7 @@ namespace NotAngel.Web
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
+            
 
             app.UseMvc(routes =>
             {
